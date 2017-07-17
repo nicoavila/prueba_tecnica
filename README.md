@@ -15,7 +15,7 @@ Para responder la prueba técnica debe realizar un **fork** de este proyecto en 
 Defina una función llamada `pipeme()` en el objeto `String`. Esta función no debe aceptar argumentos. Al llamar a esta función debe:
 1. Transformar cada caracter del string en mayúsculas
 2. Insertar entre cada caracter un pipe `|`. Así el resultado sería por ejemplo `"biomedica" -> "B|I|O|M|E|D|I|C|A"`.
-3. Crear esta función en un archivo JS que pueda ser ejecutado mediante la consola de **NodeJS**. No debe utilizar dependencias externas para realizar esta tarea.
+3. Crear esta función en un archivo JS que pueda ser ejecutado mediante la consola de **un navegador web**. No debe utilizar dependencias externas para realizar esta tarea.
 
 ### Prueba 2: PHP
 Utilizando el administrador de dependencias [https://getcomposer.org/](Composer) instale y utilice Gruzzle v6.x para obtener todos los álbumes de `Daft Punk` desde la API de Spotify [https://developer.spotify.com/web-api/endpoint-reference/](link) e imprimir su `nombre` y `fecha de lanzamiento` mediante `echo` separando los datos mediante `;`: `ej: Homework;1997`

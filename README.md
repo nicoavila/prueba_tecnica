@@ -1,6 +1,6 @@
 # Prueba Técnica
 
-La presente prueba técnica pretende evaluar sus habilidades y competencias para el cargo de **Desarrollador Senior** del **Centro de Informática Biomédica** [https://www.getonbrd.cl/empleos/programacion/desarrollador-ci3](link).
+La presente prueba técnica pretende evaluar sus habilidades y competencias para el cargo de **Desarrollador Senior** del **Centro de Informática Biomédica** [link](https://www.getonbrd.cl/empleos/programacion/desarrollador-ci3/).  
 El test consta de 3 problemas los cuales debe resolver en un periodo máximo de 48hrs. desde que ha sido presentado este repositorio vía email.
 
 ## Cómo responder la prueba técnica?
@@ -18,7 +18,7 @@ Defina una función llamada `pipeme()` en el objeto `String`. Esta función no d
 3. Crear esta función en un archivo JS que pueda ser ejecutado mediante la consola de **un navegador web**. No debe utilizar dependencias externas para realizar esta tarea.
 
 ### Prueba 2: PHP
-Utilizando el administrador de dependencias [https://getcomposer.org/](Composer) instale y utilice Gruzzle v6.x para obtener todos los álbumes de `Daft Punk` desde la API de Spotify [https://developer.spotify.com/web-api/endpoint-reference/](link) e imprimir su `nombre` y `fecha de lanzamiento` mediante `echo` separando los datos mediante `;`: `ej: Homework;1997`
+Utilizando el administrador de dependencias [Composer](https://getcomposer.org/) instale y utilice Gruzzle v6.x para obtener todos los álbumes de `Daft Punk` desde la API de Spotify [link](https://developer.spotify.com/web-api/endpoint-reference/) e imprimir su `nombre` y `fecha de lanzamiento` mediante `echo` separando los datos mediante `;`: `ej: Homework;1997`
 
 1. Cree una clase que encapsule toda la lógica para realizar la llamada a la API
 2. Presente cada uno de los álbumes cono una nueva línea.

@@ -7,23 +7,35 @@ El test consta de 3 problemas los cuales debe resolver en un periodo máximo de 
 
 Para responder la prueba técnica debe realizar un **fork** de este proyecto en su cuenta personal de **Github** siguiendo las siguientes convenciones:
 
-1. Crear una carpeta **src** que contenga las siguientes subcarpetas: **js**, **php** y **swift**
+1. Crear una carpeta **src** que contenga las siguientes subcarpetas: **js**, **php** y **bd**
 2. Crear los tres ejercicios, con su correspondiente solución en cada una de las subcarpetas según corresponda
 3. Realizar un commit y push hacia **su repositorio** con la solución para cada uno de los puntos
 
 ### Prueba 1: Javascript
-Defina una función llamada `pipeme()` en el objeto `String`. Esta función no debe aceptar argumentos. Al llamar a esta función debe:
-1. Transformar cada caracter del string en mayúsculas
-2. Insertar entre cada caracter un pipe `|`. Así el resultado sería por ejemplo `"biomedica" -> "B|I|O|M|E|D|I|C|A"`.
-3. Crear esta función en un archivo JS que pueda ser ejecutado mediante la consola de **un navegador web**. No debe utilizar dependencias externas para realizar esta tarea.
+Realice una llamada asíncrona al endpoint de **openFDA** para consultar efectos adversos sobre medicamentos [https://api.fda.gov/drug/event.json?limit=10](https://api.fda.gov/drug/event.json?limit=1). Debe traer la información de los últimos 15 registros. Revise los parámetros query de la URL anterior para obtener más registros.  
+Con esa información, debe desplegar los resultados en una tabla basado en la siguiente información a extraer (en este caso, se utiliza notación [JsonPATH](http://jsonpath.com/) para mostrar los datos a obtener)
+
+* `$.results[*].patient.drug[*].medicinalproduct`
+* `$.results[*].patient.drug[*].drugindication`
+
+1. **No debe utilizar jQuery para realizar la llamada**
+2. Utilice `forEach` para procesar la información
+3. Utilice **Promesas**
+3. Despliegue toda la información en una tabla de dos columnas.
+4. Utilice un archivo **index.html** y **script.js** para presentar la resolución del ejercicio
 
 ### Prueba 2: PHP
-Utilizando el administrador de dependencias [Composer](https://getcomposer.org/) instale y utilice Gruzzle v6.x para obtener todos los álbumes de `Daft Punk` desde la API de Spotify [link](https://developer.spotify.com/web-api/endpoint-reference/) e imprimir su `nombre` y `fecha de lanzamiento` mediante `echo` separando los datos mediante `;`: `ej: Homework;1997`
+Dado el archivo CSV `datos.csv` debe llenar los datos marcados como `ND` con el promedio de cada columna a la cual pertenezca. Así por ejemplo
 
-1. Cree una clase que encapsule toda la lógica para realizar la llamada a la API
-2. Presente cada uno de los álbumes cono una nueva línea.
+| A |
+|---|
+| 1 |
+| 5 |
+|ND |
+| 3 |
 
-### Prueba 3: Swift
-Calcule la distancia entre los puntos (3,0) y (-7,4) en un plano cartesiano utilizando un archivo de **Swift Playgrounds**:
-1. Implemente la fórmula para el cálculo de distancia entre dos puntos en un plano de coordenadas cartesiano: `d = sqrt((x2-x1)^2 + (y2-y1)^2))`
-2. El resultado debe imprimirlo en consola utilizando **Swift Playgrounds**
+`ND = (1 + 5 + 3) / 2`
+
+1. Debe utilizar el **paradigma POO** para realizar este ejemplo. Esto incluye una **clase** con funciones y atributos que permitan procesar el archivo `.csv`, asi como una instancia de la clase. Puede utilizar más de un archivo si cree necesario.
+2. Debe presentar el resultado de la operación en pantalla.
+3. Debe guardar un archivo llamado `datos_procesados.csv` con los datos ND reemplazados

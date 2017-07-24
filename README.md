@@ -1,7 +1,7 @@
 # Prueba Técnica
 
 La presente prueba técnica pretende evaluar sus habilidades y competencias para el cargo de **Desarrollador Senior** del **Centro de Informática Biomédica** [link](https://www.getonbrd.cl/empleos/programacion/desarrollador-ci3/).  
-El test consta de 3 problemas los cuales debe resolver en un periodo máximo de 48hrs. desde que ha sido presentado este repositorio vía email.
+El test consta de 2 problemas los cuales debe resolver en un periodo máximo de 48hrs. desde que ha sido presentado este repositorio vía email.
 
 ## Cómo responder la prueba técnica?
 
@@ -12,14 +12,14 @@ Para responder la prueba técnica debe realizar un **fork** de este proyecto en 
 3. Realizar un commit y push hacia **su repositorio** con la solución para cada uno de los puntos
 
 ### Prueba 1: Javascript
-Realice una llamada asíncrona al endpoint de **openFDA** para consultar efectos adversos sobre medicamentos [https://api.fda.gov/drug/event.json?limit=10](https://api.fda.gov/drug/event.json?limit=1). Debe traer la información de los últimos 15 registros. Revise los parámetros query de la URL anterior para obtener más registros.  
+Realice una llamada asíncrona al endpoint de **openFDA** para consultar efectos adversos sobre medicamentos [https://api.fda.gov/drug/event.json?limit=1](https://api.fda.gov/drug/event.json?limit=1). Debe traer la información de los últimos 15 registros. Revise los parámetros query de la URL anterior para obtener más registros.  
 Con esa información, debe desplegar los resultados en una tabla basado en la siguiente información a extraer (en este caso, se utiliza notación [JsonPATH](http://jsonpath.com/) para mostrar los datos a obtener)
 
 * `$.results[*].patient.drug[*].medicinalproduct`
 * `$.results[*].patient.drug[*].drugindication`
 
 1. **No debe utilizar jQuery para realizar la llamada**
-2. Utilice `forEach` para procesar la información
+2. Utilice `forEach` para procesar el objeto de resultados
 3. Utilice **Promesas**
 3. Despliegue toda la información en una tabla de dos columnas.
 4. Utilice un archivo **index.html** y **script.js** para presentar la resolución del ejercicio

@@ -21,8 +21,15 @@ Con esa información, debe desplegar los resultados en una tabla basado en la si
 1. **No debe utilizar jQuery para realizar la llamada**
 2. Utilice `forEach` para procesar el objeto de resultados
 3. Utilice **Promesas**
-3. Despliegue toda la información en una tabla de dos columnas.
-4. Utilice un archivo **index.html** y **script.js** para presentar la resolución del ejercicio
+4. Mientras esté cargando la información muestre un párrafo con el mensaje *Cargando...*. Cuando se resuelvan todas las promesas cambie el mensaje a *Carga completada!*.
+5. Despliegue toda la información en una tabla de dos columnas.
+6. Si alguna información no existe (`undefined`, vació o `null`), reemplace por `-`
+7. Utilice un archivo **index.html** y **script.js** para presentar la resolución del ejercicio
+
+Debe poder realizar algo similar a esto:
+
+![Grafico de precio de venta](https://s3-us-west-2.amazonaws.com/nicoavila/ejercicio1-prueba-tecnica.png)
+
 
 ### Prueba 2: PHP
 Dado el archivo CSV `datos.csv` debe llenar los datos marcados como `ND` con el promedio de cada columna a la cual pertenezca. Así por ejemplo

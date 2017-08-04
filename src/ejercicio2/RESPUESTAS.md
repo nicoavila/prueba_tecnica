@@ -17,11 +17,12 @@ Cuál es el ciclo de vida de una aplicación Android?
 
 Qué es ADB?
 
-        "Android Debug Bridge" o puente para depuración en Android, es una herramienta de linea de comandos que permite comunicarse directamente con un sistema operativo android de algún dispositivo o emulador conectado al S.O. desde donde se ejecuta ADB.
+        "Android Debug Bridge" o puente para depuración en Android, es una herramienta de linea de comandos que permite comunicarse directamente con el sistema operativo android de algún dispositivo o emulador conectado al S.O. desde donde se ejecuta ADB.
 
 Qué se define en un archivo manifest de una aplicación Android?
 
         Provee de toda la información esencial de la aplicación al sistema Android, esta información es necesaria antes que el sistema pueda ejecutar el código de la aplicación. Define lo siguiente:
+        
         Nombre del paquete Java, este sirve como identificador unico de la aplicacion.
 
         Describe los componentes de la aplicación tales como, actividades, servicios, proveedores de contenido y receptores de difusión.
@@ -40,4 +41,5 @@ Qué se define en un archivo manifest de una aplicación Android?
 
 Qué es una notificación Toast?
 
-        Es un mensaje sobrepuesto (popup) que provee de retroalimentacion simple sobre una operación. Aparece por un tiempo determinado sobre la actividad actual que permanece invisible o inactiva mientras el mensaje Toast es desplegado. No requiere ninguna acción del usuario.
+        Es un mensaje sobrepuesto (popup) que provee de retroalimentacion simple sobre una operación. 
+        Aparece por un tiempo determinado sobre la actividad actual que permanece invisible o inactiva mientras el mensaje Toast es desplegado. No requiere ninguna acción del usuario.

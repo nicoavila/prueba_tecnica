@@ -1,48 +1,27 @@
 # Prueba Técnica
 
-La presente prueba técnica pretende evaluar sus habilidades y competencias para el cargo de **Desarrollador Senior** del **Centro de Informática Biomédica** [link](https://www.getonbrd.cl/empleos/programacion/desarrollador-ci3/).  
+La presente prueba técnica pretende evaluar sus habilidades y competencias para el proyecto de Telemedicina de Clínica Alemana de Santiago.  
 El test consta de 2 problemas los cuales debe resolver en un periodo máximo de 48hrs. desde que ha sido presentado este repositorio vía email.
 
 ## Cómo responder la prueba técnica?
 
 Para responder la prueba técnica debe realizar un **fork** de este proyecto en su cuenta personal de **Github** siguiendo las siguientes convenciones:
 
-1. Crear una carpeta **src** que contenga las siguientes subcarpetas: **js** y **php**
-2. Crear los tres ejercicios, con su correspondiente solución en cada una de las subcarpetas según corresponda
+1. Crear una carpeta **src** que contenga las siguientes subcarpetas: **ejercicio1** y **ejercicio2**
+2. Crear los dos ejercicios, con su correspondiente solución en cada una de las subcarpetas según corresponda. Para el ejercicio 2 utilice un archivo .txt para entregar sus respuestas.
 3. Realizar un commit y push hacia **su repositorio** con la solución para cada uno de los puntos
 
-### Prueba 1: Javascript
-Realice una llamada asíncrona al endpoint de **openFDA** para consultar efectos adversos sobre medicamentos [https://api.fda.gov/drug/event.json?limit=1](https://api.fda.gov/drug/event.json?limit=1). Debe traer la información de los últimos 15 registros. Revise los parámetros query de la URL anterior para obtener más registros.  
-Con esa información, debe desplegar los resultados en una tabla basado en la siguiente información a extraer (en este caso, se utiliza notación [JsonPATH](http://jsonpath.com/) para mostrar los datos a obtener)
+### Ejercicio 1
+Calcule la distancia entre los puntos (3,0) y (-7,4) en un plano cartesiano utilizando Java
+1. Implemente la fórmula para el cálculo de distancia entre dos puntos en un plano de coordenadas cartesiano: `d = sqrt((x2-x1)^2 + (y2-y1)^2))`
+2. El resultado debe imprimirlo en consola
 
-* `$.results[*].patient.drug[*].medicinalproduct`
-* `$.results[*].patient.drug[*].drugindication`
-
-1. **No debe utilizar jQuery para realizar la llamada**
-2. Utilice `forEach` para procesar el objeto de resultados
-3. Utilice **Promesas**
-4. Mientras esté cargando la información muestre un párrafo con el mensaje *Cargando...*. Cuando se resuelvan todas las promesas cambie el mensaje a *Carga completada!*.
-5. Despliegue toda la información en una tabla de dos columnas.
-6. Si alguna información no existe (`undefined`, vació o `null`), reemplace por `-`
-7. Utilice un archivo **index.html** y **script.js** para presentar la resolución del ejercicio
-
-Debe poder realizar algo similar a esto:
-
-![Grafico de precio de venta](https://s3-us-west-2.amazonaws.com/nicoavila/ejercicio1-prueba-tecnica.png)
-
-
-### Prueba 2: PHP
-Dado el archivo CSV `datos.csv` debe llenar los datos marcados como `ND` con el promedio de cada columna a la cual pertenezca. Así por ejemplo
-
-| A |
-|---|
-| 1 |
-| 5 |
-|ND |
-| 3 |
-
-`ND = (1 + 5 + 3) / 2`
-
-1. Debe utilizar el **paradigma POO** para realizar este ejemplo. Esto incluye una **clase** con funciones y atributos que permitan procesar el archivo `.csv`, asi como una instancia de la clase. Puede utilizar más de un archivo si cree necesario.
-2. Debe presentar el resultado de la operación en pantalla.
-3. Debe guardar un archivo llamado `datos_procesados.csv` con los datos ND reemplazados
+### Ejercicio 2 (responder las siguientes preguntas)
+Responda las siguientes preguntas en la forma más breve posible
+1. Cuál es el Stack de Android?
+2. Qué es un archivo .APK?
+3. Qué es un Intent?
+4. Cuál es el ciclo de vida de una aplicación Android?
+5. Qué es ADB?
+6. Qué se define en un archivo manifest de una aplicación Android?
+7. Qué es una notificación Toast?

@@ -1,5 +1,3 @@
-import java.util.Scanner;
- 
 //Distancia entre los puntos (3,0) y (-7,4)
 //d = sqrt((x2-x1)^2 + (y2-y1)^2))
 

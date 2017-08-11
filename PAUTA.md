@@ -4,7 +4,7 @@ A continuación se detalla la pauta de evaluación de competencias para el proye
 
 ### Criterio de aprobación
 Para aprobar la prueba técnica usted debe: 
-* Obtener una puntuación >= 21 puntos
+* Obtener una puntuación >= 30 puntos
 * Presentar la prueba dentro del rango de tiempo establecido
 
 ## Ejercicio 1
@@ -13,26 +13,23 @@ Para aprobar la prueba técnica usted debe:
 | :-------------------------------------- | -----------:|
 | Completa el ejercicio                   |           5 |
 | Cumple requerimiento                    |           5 |
-| Imprime información en consola          |           5 |
+| Imprime información en pantalla         |           5 |
 | **Total**                               |      **15** |
 
 **Objetivos del ejercicio**
-1. Evaluar uso de lenguaje JAVA
-2. Capacidad para traducir requerimiento en feature
+1. Evaluar uso de lenguaje Swift
+2. Evaluar capacidad para traducir requerimiento en feature
 
 ## Ejercicio 2
 
-| Item                           | Puntuación  |
-| :----------------------------- | -----------:|
-| Completa el ejercicio          |           5 |
-| Pregunta 1 correcta            |           1 |
-| Pregunta 2 correcta            |           1 |
-| Pregunta 3 correcta            |           1 |
-| Pregunta 4 correcta            |           1 |
-| Pregunta 5 correcta            |           1 |
-| Pregunta 6 correcta            |           1 |
-| Pregunta 7 correcta            |           1 |
-| **Total**                      |      **12** |
+| Item                            | Puntuación  |
+| :------------------------------ | -----------:|
+| Completa el ejercicio           |           5 |
+| Implementa getMin()             |           5 |
+| Implementa getMax()             |           5 |
+| Imprime información en pantalla |           5 |
+| **Total**                       |      **20** |
 
 **Objetivos del ejercicio**
-1. Comprobar nivel de conocimiento de SDK de Android
+1. Evaluar uso de lenguaje Swift
+2. Evaluar capacidad para traducir requerimiento en feature

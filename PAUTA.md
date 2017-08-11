@@ -1,6 +1,6 @@
 # Pauta de evaluación: Prueba Técnica
 
-A continuación se detalla la pauta de evaluación para la prueba técnica del cargo de **Desarrollador Senior** del **Centro de Informática Biomédica**. La prueba consta de 44 puntos. 
+A continuación se detalla la pauta de evaluación de competencias para el proyecto de Telemedicina de Clínica Alemana de Santiago.
 
 ### Criterio de aprobación
 Para aprobar la prueba técnica usted debe: 
@@ -11,34 +11,28 @@ Para aprobar la prueba técnica usted debe:
 
 | Item                                    | Puntuación  |
 | :-------------------------------------- | -----------:|
-| Completa el ejercicio                   |           3 |
-| No utilizar jQuery en ejercicio         |           5 |
-| Utiliza forEach                         |           1 |
-| Utiliza Promesas                        |           3 |
-| Despliega info. en tabla                |           4 |
-| DRY                                     |           2 |
-| KISS                                    |           2 |
-| **Total**                               |      **20** |
+| Completa el ejercicio                   |           5 |
+| Cumple requerimiento                    |           5 |
+| Imprime información en consola          |           5 |
+| **Total**                               |      **15** |
 
 **Objetivos del ejercicio**
-1. Medir nivel de uso de JS
-2. Capacidad de utilizar JS sin librerías de terceros
-3. Capacidad para traducir requerimiento en feature
-4. Capacidad de investigar una solución basada en información parcial
+1. Evaluar uso de lenguaje JAVA
+2. Capacidad para traducir requerimiento en feature
 
 ## Ejercicio 2
 
 | Item                           | Puntuación  |
 | :----------------------------- | -----------:|
-| Completa el ejercicio          |           3 |
-| Capacidad de utilizar POO      |          10 |
-| Guardar resultados en archivo  |           5 |
-| DRY                            |           2 |
-| KISS                           |           2 |
-| **Total**                      |      **22** |
+| Completa el ejercicio          |           5 |
+| Pregunta 1 correcta            |           1 |
+| Pregunta 2 correcta            |           1 |
+| Pregunta 3 correcta            |           1 |
+| Pregunta 4 correcta            |           1 |
+| Pregunta 5 correcta            |           1 |
+| Pregunta 6 correcta            |           1 |
+| Pregunta 7 correcta            |           1 |
+| **Total**                      |      **12** |
 
 **Objetivos del ejercicio**
-1. Medir nivel de uso de PHP
-2. Capacidad para traducir requerimiento en feature
-3. Capacidad para leer/escribir archivos externos
-4. Medir nivel de uso de OOP44*8
+1. Comprobar nivel de conocimiento de SDK de Android

@@ -4,7 +4,7 @@ A continuación se detalla la pauta de evaluación de competencias para el proye
 
 ### Criterio de aprobación
 Para aprobar la prueba técnica usted debe: 
-* Obtener una puntuación >= 35 puntos
+* Obtener una puntuación >= 21 puntos
 * Presentar la prueba dentro del rango de tiempo establecido
 
 ## Ejercicio 1
